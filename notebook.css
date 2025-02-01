@@ -1,0 +1,58 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f5dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.notebook {
+    background-color: #fff8dc;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.notebook h2, .notebook p {
+    text-align: center;
+}
+
+.notebook ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notebook li {
+    margin: 5px 0;
+    padding: 5px 0;
+    border-bottom: 1px dashed #d3d3d3;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.notebook li.completed {
+    text-decoration: line-through;
+    background-color: #d3ffcc;
+}
+
+.notebook li:hover {
+    background-color: #e0e0e0;
+    transform: translateX(10px);
+}
+
+button.delete {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.delete:hover {
+    background-color: #ff4949;
+}
