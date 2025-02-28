@@ -6,7 +6,7 @@ This is a simple and interactive To-Do List web application designed to help use
 ## 🚀 Features
 - Add new tasks dynamically 
 - Mark tasks as completed or pending 
-- Delete tasks from the list
+- Delete tasks from the list 
 - Simple and user-friendly UI
 - Data persistence using Local Storage (if implemented)
 
