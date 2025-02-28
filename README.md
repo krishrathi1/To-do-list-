@@ -4,7 +4,7 @@
 This is a simple and interactive To-Do List web application designed to help users manage their tasks efficiently. The application allows users to add, delete, and mark tasks as completed in an intuitive interface.
 
 ## 🚀 Features
-- Add new tasks dynamically
+- Add new tasks dynamically 
 - Mark tasks as completed or pending
 - Delete tasks from the list
 - Simple and user-friendly UI
